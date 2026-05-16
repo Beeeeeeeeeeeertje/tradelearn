@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 import './App.css';
 
-const ADMIN_EMAIL = 'louisvaast@icloud.com';
 
 const METALEN_CONFIG = [
   { id: 'goud', naam: 'Goud', icoon: '🥇', kleur: '#f0b429', startprijs: 3200 },
